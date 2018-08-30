@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0A25E421247C2A007663B8 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A25E321247C2A007663B8 /* Agent.swift */; };
+		FB2DB6D2212ECBA50006F19A /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2DB6D1212ECBA50006F19A /* NeuralNetwork.swift */; };
 		FBB8999B21215A78003E23A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB8999A21215A78003E23A7 /* AppDelegate.swift */; };
 		FBB8999D21215A78003E23A7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBB8999C21215A78003E23A7 /* GameScene.sks */; };
-		FBB8999F21215A78003E23A7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBB8999E21215A78003E23A7 /* Actions.sks */; };
 		FBB899A121215A78003E23A7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB899A021215A78003E23A7 /* GameScene.swift */; };
 		FBB899A321215A78003E23A7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB899A221215A78003E23A7 /* GameViewController.swift */; };
 		FBB899A621215A78003E23A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB899A421215A78003E23A7 /* Main.storyboard */; };
@@ -18,10 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FBB8999721215A78003E23A7 /* CertPole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CertPole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0A25E321247C2A007663B8 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		FB2DB6D1212ECBA50006F19A /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
+		FBB8999721215A78003E23A7 /* CartPoleDeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartPoleDeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB8999A21215A78003E23A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB8999C21215A78003E23A7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FBB8999E21215A78003E23A7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FBB899A021215A78003E23A7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FBB899A221215A78003E23A7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FBB899A521215A78003E23A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 		FBB8998E21215A78003E23A7 = {
 			isa = PBXGroup;
 			children = (
-				FBB8999921215A78003E23A7 /* CertPole */,
+				FBB8999921215A78003E23A7 /* CartPole */,
 				FBB8999821215A78003E23A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,33 +54,34 @@
 		FBB8999821215A78003E23A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBB8999721215A78003E23A7 /* CertPole.app */,
+				FBB8999721215A78003E23A7 /* CartPoleDeep.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FBB8999921215A78003E23A7 /* CertPole */ = {
+		FBB8999921215A78003E23A7 /* CartPole */ = {
 			isa = PBXGroup;
 			children = (
 				FBB8999A21215A78003E23A7 /* AppDelegate.swift */,
 				FBB8999C21215A78003E23A7 /* GameScene.sks */,
-				FBB8999E21215A78003E23A7 /* Actions.sks */,
 				FBB899A021215A78003E23A7 /* GameScene.swift */,
 				FBB899A221215A78003E23A7 /* GameViewController.swift */,
+				FB0A25E321247C2A007663B8 /* Agent.swift */,
+				FB2DB6D1212ECBA50006F19A /* NeuralNetwork.swift */,
 				FBB899A421215A78003E23A7 /* Main.storyboard */,
 				FBB899A721215A79003E23A7 /* Assets.xcassets */,
 				FBB899A921215A79003E23A7 /* LaunchScreen.storyboard */,
 				FBB899AC21215A79003E23A7 /* Info.plist */,
 			);
-			path = CertPole;
+			path = CartPole;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBB8999621215A78003E23A7 /* CertPole */ = {
+		FBB8999621215A78003E23A7 /* CartPoleDeep */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBB899AF21215A79003E23A7 /* Build configuration list for PBXNativeTarget "CertPole" */;
+			buildConfigurationList = FBB899AF21215A79003E23A7 /* Build configuration list for PBXNativeTarget "CartPoleDeep" */;
 			buildPhases = (
 				FBB8999321215A78003E23A7 /* Sources */,
 				FBB8999421215A78003E23A7 /* Frameworks */,
@@ -88,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = CertPole;
+			name = CartPoleDeep;
 			productName = CertPole;
-			productReference = FBB8999721215A78003E23A7 /* CertPole.app */;
+			productReference = FBB8999721215A78003E23A7 /* CartPoleDeep.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FBB8999221215A78003E23A7 /* Build configuration list for PBXProject "CertPole" */;
+			buildConfigurationList = FBB8999221215A78003E23A7 /* Build configuration list for PBXProject "CartPoleDeep" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBB8999621215A78003E23A7 /* CertPole */,
+				FBB8999621215A78003E23A7 /* CartPoleDeep */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +138,6 @@
 				FBB8999D21215A78003E23A7 /* GameScene.sks in Resources */,
 				FBB899A821215A79003E23A7 /* Assets.xcassets in Resources */,
 				FBB899AB21215A79003E23A7 /* LaunchScreen.storyboard in Resources */,
-				FBB8999F21215A78003E23A7 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB2DB6D2212ECBA50006F19A /* NeuralNetwork.swift in Sources */,
 				FBB899A121215A78003E23A7 /* GameScene.swift in Sources */,
+				FB0A25E421247C2A007663B8 /* Agent.swift in Sources */,
 				FBB899A321215A78003E23A7 /* GameViewController.swift in Sources */,
 				FBB8999B21215A78003E23A7 /* AppDelegate.swift in Sources */,
 			);
@@ -293,7 +297,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CertPole/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/CartPole/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +315,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CertPole/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/CartPole/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBB8999221215A78003E23A7 /* Build configuration list for PBXProject "CertPole" */ = {
+		FBB8999221215A78003E23A7 /* Build configuration list for PBXProject "CartPoleDeep" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBB899AD21215A79003E23A7 /* Debug */,
@@ -334,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBB899AF21215A79003E23A7 /* Build configuration list for PBXNativeTarget "CertPole" */ = {
+		FBB899AF21215A79003E23A7 /* Build configuration list for PBXNativeTarget "CartPoleDeep" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBB899B021215A79003E23A7 /* Debug */,
